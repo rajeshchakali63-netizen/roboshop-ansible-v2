@@ -13,7 +13,7 @@
     name: common
     tasks_from: systemd-setup
 
-- name: restart {{ user }}
+- name: restart application
   include_role:
     name: common
     task_from: restart

@@ -5,7 +5,7 @@
 
   - name: java setup
     include_role:
-      name: command
+      name: comman
       tasks_from: java
 
   - name: systemd setup

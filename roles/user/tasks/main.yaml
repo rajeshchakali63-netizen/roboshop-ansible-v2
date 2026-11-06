@@ -16,4 +16,4 @@
 - name: restart application
   include_role:
     name: common
-    task_from: restart
+    tasks_from: restart
